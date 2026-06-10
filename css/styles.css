@@ -49,9 +49,13 @@ footer {
     border-radius: 50%;
 }
 .side-image {
-    position: fixed;
+    position: absolute;
     left: 0;
-    top: 0;
-    width: calc((100vw - 750px) / 2);
-    height: 100vh;
+    top: 120px;
+    width: 25vw;
+}
+
+.side-image img {
+    width: 100%;
+    height: auto;
 }
